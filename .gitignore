@@ -1,8 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/dist-server
 /tmp
 /out-tsc
 
@@ -42,3 +40,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+.idea/jsLibraryMappings.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/skins_cloud_front.iml
+.idea/libraries/tsconfig_roots.xml
+.idea/inspectionProfiles/Project_Default.xml

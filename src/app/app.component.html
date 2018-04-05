@@ -1,0 +1,9 @@
+<div class="styled-select grey semi-square">
+  <select [(ngModel)]="selectedMovie" (ngModelChange)="selectMovie()">
+    <option #defaultOption disabled selected>Movie:</option>
+    <option *ngFor="let movie of movies" [ngValue]="movie">{{movie.original_title}}</option>
+  </select>
+</div>
+<div *ngIf="!defaultValue" class="button_clear">
+  <button (click)="toDefault()">Clear</button>
+</div>
